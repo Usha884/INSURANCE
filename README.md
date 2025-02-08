@@ -7,3 +7,6 @@ This project also contains the report about the whole project idea and the manag
 Pre procedure to follow:
 1. Import the database in the localhost/phpmyadmin
 2. Then start from from the index.php file which is the home page
+
+Report: [insurance report.pdf](https://github.com/user-attachments/files/18717933/insurance.report.pdf)
+
