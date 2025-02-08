@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> login index</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<style>
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #585c68;
+}
+
+.wrapper {
+  width: 780px;
+  margin: 50px auto 0;
+}
+
+.wrapper .title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .option_item {
+  display: block;
+  position: relative;
+  width: 175px;
+  height: 175px;
+  margin: 10px;
+}
+
+.container .option_item .tickmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.option_item .option_inner {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 58px 40px;
+  cursor: pointer;
+  color: #585c68;
+  display: block;
+  border: 5px solid transparent;
+  position: relative;
+}
+.log{
+  margin-left: 15px;
+  
+  text-align: center;
+}
+</style>
+<body>
+
+<div class="wrapper">
+  <div class="title">
+    <h3>we provide all kinds of insurance listed below</h3>
+  </div>
+
+  <div class="container">
+    <label class="option_item">
+      <div class="option_inner ">
+        <div class="tickmark"></div>
+        <div class="icon"><i class="fa fa-home" style="font-size:48px;"></i></div>
+        <div class="name"><a href="#">home insurance</a></div>
+      </div>
+    </label>
+   
+    <label class="option_item">
+      <div class="option_inner ">
+        <div class="tickmark"></div>
+        <div class="icon"><i class="fas fa-car" style="font-size:48px;"></i></div>
+        <div class="name"><a href="#">auto insurance</a></div>
+      </div>
+    </label>
+    <label class="option_item">
+     
+      <div class="option_inner ">
+        <div class="tickmark"></div>
+        <div class="icon"><i class="fas fa-heartbeat"style="font-size:48px; color:red;"></i></div>
+        <div class="name"><a href="#">life insurance</a></div>
+      </div>
+    </label>
+    <label class="option_item">
+        
+        <div class="option_inner ">
+          <div class="tickmark"></div>
+          <div class="icon"><i class="fas fa-suitcase-rolling" style="font-size:48px;"></i></div>
+          <div class="name"><a href="#">travel insurance</a></div>
+        </div>
+      </label>
+    <label class="option_item">
+      
+      <div class="option_inner">
+        <div class="tickmark"></div>
+        <div class="icon"><i class="fas fa-paw" style="font-size:48px;"></i></div>
+        <div class="name"><a href="#">pet insurance</a></div>
+      </div>
+    </label>
+    <label class="option_item">
+        <!-- <input type="checkbox" class="checkbox"> -->
+        <div class="option_inner quora">
+          <div class="tickmark"></div>
+          <div class="icon"><i class="fas fa-building" style="font-size:48px;"></i></div>
+          <div class="name">commercial insurance</div>
+        </div>
+      </label>
+    <label class="option_item">
+      
+      <div class="option_inner ">
+        <div class="tickmark"></div>
+        <div class="icon"><i class="fab fa-google-plus-g" style="font-size:48px;"></i></div>
+        <div class="name">miscellanious</div>
+      </div>
+    </label>
+ 
+  </div>
+
+</div>
+<!-- <h2><a href="C:\xampp\htdocs\insurancedemo\client\client.php">click here for registration</a></h2> -->
+<br><br><br>
+<!-- <div class = "log">
+<h2 ><a href = client.php>click here for registration</a></h2>
+</div> -->
+</body>
+</html>
